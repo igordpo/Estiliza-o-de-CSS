@@ -1,0 +1,89 @@
+#perfil-usuario {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+}
+
+.nome {
+    color: #1e293b;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cargo {
+    color: #64748b;
+    font-style: italic;
+}
+
+*,
+*::before::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario-box {
+  width: 400px;
+  padding: 24px;
+  border: 2px solid #3b82f6;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: white;
+}
+.navbar .menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: #475569;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+.navbar .menu a:hover{
+    color: #3b82f6;
+}
+
+.card-noticia{
+    top: 10px;
+    left: 10px;
+}
+.btn-enviar{
+    background-color: #10b981;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+.btn-enviar:hover{
+ background-color: #059669;
+ transform: translateY(-2px);
+}
+.btn-enviar:focus{
+    outline: 2px solid #3b82f6;
+}
+.card-servico{
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+.card-servico:hover{
+ transform: translateY(-8px);
+ box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15);
+}
+.user-avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6366f1;
+}
